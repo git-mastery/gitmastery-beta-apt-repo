@@ -64,6 +64,8 @@ jobs:
             # Beta .deb files are uploaded to the app repo's beta release
             DOWNLOAD_URL=$(curl -s https://api.github.com/repos/git-mastery/app/releases/tags/${VERSION} | jq -r --arg suffix "${ARCHITECTURE}.deb" '.assets[] | select(.name | endswith($suffix)) | .browser_download_url')
             TRIMMED_VERSION=${VERSION#v}
+            # Debian semver can't handle hyphens or dots around beta
+            TRIMMED_VERSION=$(echo "$TRIMMED_VERSION" | sed 's/-beta\./~beta/g')
 
             # Package is named gitmastery-beta to allow parallel install alongside stable
             FILENAME="gitmastery-beta_${TRIMMED_VERSION}-1_${ARCHITECTURE}.deb"

@@ -1,0 +1,16 @@
+Package: gitmastery-beta
+Version: 7.8.2~beta2-1
+Architecture: amd64
+Maintainer: Jiahao, Woo <woojiahao1234@gmail.com>
+Installed-Size: 16563
+Depends: libc6 (>= 2.35), python3
+Priority: optional
+Section: misc
+Filename: pool/main/g/gitmastery-beta/gitmastery-beta_7.8.2~beta2-1_amd64.deb
+Size: 16526762
+SHA256: 295e83c97ed40450fe892377ecda8c780127fc2ad4298b3296a7b08a17732d32
+SHA1: 335253d85af812966ea121c5cecb999facb5afdd
+MD5sum: 47b90887ac3a2d3695b8e82477ecd502
+Description: execute Git-Mastery
+  gitmastery-beta is a Git learning tool built by the National University of Singapore School of Computing
+

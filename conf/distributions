@@ -1,0 +1,7 @@
+Origin: GitHub
+Label: GitHub Git-Mastery Beta
+Suite: stable
+Codename: any
+Components: main
+Architectures: arm64 amd64
+SignWith: 0FF936C3FB0D89E49DBF12453A29C5921596E28F

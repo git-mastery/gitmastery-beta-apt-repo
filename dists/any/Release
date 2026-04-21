@@ -1,0 +1,28 @@
+Origin: GitHub
+Label: GitHub Git-Mastery Beta
+Suite: stable
+Codename: any
+Date: Tue, 21 Apr 2026 20:10:07 UTC
+Architectures: arm64 amd64
+Components: main
+MD5Sum:
+ d76c1d57625a1133acb77f30d99d76c8 602 main/binary-arm64/Packages
+ dd179f05cdd2fc95b567ee5c28a569f8 430 main/binary-arm64/Packages.gz
+ 0e74f38705d55a7247a08a350f770292 98 main/binary-arm64/Release
+ 05345445beb03d537328bb06b5740ea8 602 main/binary-amd64/Packages
+ d258e1fc7ca0b1b45390d30c10b9a7a0 428 main/binary-amd64/Packages.gz
+ a8aeac7d5b7bb928eb9b7457a962aa5a 98 main/binary-amd64/Release
+SHA1:
+ a9f43486200425aed3010759b5265aad818bc9d6 602 main/binary-arm64/Packages
+ f24123f459f5ae877c43ec994463464dc590f153 430 main/binary-arm64/Packages.gz
+ 7699a3cc8bc404dccd72d1fa6aceef202f5ecefc 98 main/binary-arm64/Release
+ 97645952e6627b5c1de2db8bcfba58b3dc372cb6 602 main/binary-amd64/Packages
+ b9c99a5f299a806e357489a7064974c7fcf9877b 428 main/binary-amd64/Packages.gz
+ 782085013d7657b1a84fd077da84ac934149214d 98 main/binary-amd64/Release
+SHA256:
+ 8dbcff970184cdfc96dc45399685e9858708cc62e631edeeee71221ffb166e3f 602 main/binary-arm64/Packages
+ 829557c42f1662247f0487cea33b4ff3863870afb55020312d280067e105d855 430 main/binary-arm64/Packages.gz
+ 0079601db4e4083b21ff44b2160c6ffb62f9a0f0f3f7fd299b73985a8491a8a5 98 main/binary-arm64/Release
+ 75e30d483ffef4bf302f1630318cf68f429ae42aa64b23f491529cb0d9e2b575 602 main/binary-amd64/Packages
+ bbc2700130102dcd68f9d9414e7e9a7cc07ea2c58caf8a3d742aabe09e0bfb62 428 main/binary-amd64/Packages.gz
+ dc106df5163438a744686032522d099cd1d9f4c211a0ddab8d72537adedbafb5 98 main/binary-amd64/Release
